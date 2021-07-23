@@ -429,11 +429,7 @@ function draw() {
 
     locationNO = round(random(1, 2));
     console.log()
-
-    if (keyWentDown("Space")) {
-      hp = 0
-    }
-
+  
     helthDrop(counter35,counter39)
     helthDrop(fight9,fight16)
     helthDrop(fight31,fight40)
